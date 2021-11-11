@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="../main.js"></script>
+  </head>
+  <body>
+    <!-- Content -->
+    <div class="content">
+      <!-- Form  -->
+      <form class="form">
+        <p class="form_header">Calculate Your Rewards</p>
+        <div>
+          <label for="fname">Vendor / Bills </label>
+          <input type="number" placeholder="Enter a number" id="fname" name="fname" required onchange="checkValidation()" /><br /><br />
+        </div>
+        <div>
+          <label for="fname">Media / Ad Spend</label>
+          <input type="number" placeholder="Enter a number" id="fname" name="fname" required /><br /><br />
+        </div>
+        <div>
+          <label for="fname">Corp.Spend</label>
+          <input type="number" placeholder="Enter a number" id="fname" name="fname" required /><br /><br />
+        </div>
+        <div>
+          <label for="fname">Team Project</label>
+          <input type="number" placeholder="Enter a number" id="fname" name="fname" required /><br /><br />
+        </div>
+      </form>
+      <!-- Rewards -->
+      <div class="rewards">
+        <p class="rewards_header">Compare Your Rewards</p>
+        <div class="rewards_buttons">
+          <button class="brexButton">Brex</button>
+          <button class="stripeButton">Stripe</button>
+          <button class="amexButton">Amex</button>
+        </div>
+
+        <!-- Final Calcs -->
+        <div class="finalCalc">
+          <span class="finalCalc_name"></span>
+          <span class="finalCalc_line"></span>
+          <span class="finalCalc_number"></span>
+        </div>
+        <div class="rewards_box">
+          <img src="./material/card.png" alt="" />
+          <div>
+            <div class="rewards_text">
+              <span class="rewards_text-header">Un Limited Rewards</span>
+              <span class="rewards_text-number unlimitedRewards"></span>
+            </div>
+            <div class="rewards_text">
+              <span class="rewards_text-header">Lifetime Rewards</span>
+              <span class="rewards_text-number lifetimeRewards"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

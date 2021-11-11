@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 31px;
+  background-color: #304e49;
+  box-shadow: 0 0 10px 0px black;
+  padding: 28px;
+  height: 465px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.form_header {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.form div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 307px;
+  font-size: 1.4rem;
+  color: #0ed3ff;
+}
+.form div label {
+  margin-right: 10px;
+  font-weight: 700;
+}
+.form div input {
+  text-align: center;
+  padding: 3px 0px;
+  border-radius: 3px;
+  border: none;
+}
+
+.rewards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.rewards_header {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-bottom: 1px solid;
+  padding-bottom: 1px;
+}
+.rewards_buttons {
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.rewards_buttons button {
+  padding: 6px 20px;
+  background-color: white;
+  border: 1px solid #ababab;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px black;
+  color: #262626;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+.rewards_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -34px;
+  z-index: 1;
+}
+.rewards_box div .rewards_text {
+  font-size: 1.4rem;
+  border-bottom: 1px solid;
+  color: white;
+  margin-bottom: 6px;
+}
+.rewards_box div .rewards_text-number {
+  color: #63ff59;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.rewards_box img {
+  height: 120px;
+  margin-right: 10px;
+  filter: drop-shadow(2px 4px 7px black) contrast(1.2);
+}
+
+.finalCalc {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  height: 20px;
+}
+.finalCalc_number {
+  color: #63ff59;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  &_header {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+  }
+  div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 307px;
+    font-size: 1.4rem;
+    color: #0ed3ff;
+    label {
+      margin-right: 10px;
+      font-weight: 700;
+    }
+    input {
+      text-align: center;
+      padding: 3px 0px;
+      border-radius: 3px;
+      border: none;
+    }
+  }
+}
