@@ -6,6 +6,8 @@ and calculates the percentage of each brand [Brex,Stripe,Amex ] .
 Run the following commends 
 
 ```
+git clone https://github.com/al-amiir/Calculator.git
+cd Calculator
 npm install 
 
 ```
