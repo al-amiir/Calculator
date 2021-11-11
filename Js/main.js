@@ -39,14 +39,13 @@ function calcSum() {
     inputs.forEach((inp) => (sum += +inp.value));
     unlimitedRewards.textContent = `$${(sum * 1.1).toFixed(2)}`;
     lifetimeRewards.textContent = `$${(sum * 1.2).toFixed(2)}`;
-    finalClacNumber.textContent = "";
   } else {
     check = false;
     unlimitedRewards.textContent = "";
     lifetimeRewards.textContent = "";
     finalClacName.textContent = "";
-    finalClacNumber.textContent = "";
   }
+  finalClacNumber.textContent = "";
 }
 
 checkValidation();
